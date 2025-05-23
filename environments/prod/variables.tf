@@ -3,6 +3,20 @@ variable "aws_region" {
   type        = string
 }
 
+# variable "AWS_ACCESS_KEY_ID" {
+#   type      = string
+#   sensitive = true
+# }
+
+# variable "AWS_SECRET_ACCESS_KEY" {
+#   type      = string
+#   sensitive = true
+# }
+
+# variable "AWS_SESSION_TOKEN" {
+#   type      = string
+#   sensitive = true
+# }
 variable "app_name" {
   description = "Application name used for resource naming"
   type        = string

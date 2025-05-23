@@ -1,5 +1,5 @@
 module "app" {
-  source = "../../modules/app" # this points to your shared main.tf
+  source = "git::https://github.com/waqas-seemas/terraform.git//modules/app?ref=main" # this points to your shared main.tf
 
   app_name                = var.app_name
   container_port          = var.container_port
